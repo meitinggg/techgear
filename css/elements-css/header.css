@@ -1,0 +1,20 @@
+  
+.header {
+    display: flex;
+    background-color: #444444;
+    box-shadow: 0 1rem 1rem hsl(43, 77%, 45%);
+    flex-direction: row;
+    padding: 0 1rem;
+    justify-content: right;
+    position: static;
+    top: 0;
+
+  }
+  
+  @media screen and (max-width: 760px) {
+    .header {
+      position: static;
+      padding-top: 1rem;
+      height: 70%;
+    }
+  }
